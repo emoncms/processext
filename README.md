@@ -5,10 +5,9 @@ An extension to the emoncms input processing module.
 Processes include: 
 
 - value_and_scale: Combines a value and scale input, multiplies the value by 10^scale, by Justin Knight [PR1647](https://github.com/emoncms/emoncms/pull/1647)
-
 - pow10_input: Scales current value by 10 to the power of another input, by Justin Knight [PR1647](https://github.com/emoncms/emoncms/pull/1647)
-
 - Delayed / smoothed kWh to power, by Robert Norton [PR1686](https://github.com/emoncms/emoncms/pull/1686)
+- Wh Accumulator that does not have a limit of 60Kw, by CidiRome [PR1724](https://github.com/emoncms/emoncms/pull/1724)
 
 ## Install
 
